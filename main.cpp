@@ -1,14 +1,6 @@
 #include<bits/stdc++.h>
 #include<conio.h>
 using namespace std;
-/*
-
-    predicates
-        proposition(name, diesease); 
-        symptom(name,indication);
-
-
-*/
 
 class MedicalDignosis{
 public:
@@ -23,7 +15,6 @@ public:
         cout<<"What is Age of "<<name<<" ? ==> ";
         cin>>this->age;           
     }
-
 
     void symptom(string patient,string symp){
         char choice;
@@ -105,7 +96,6 @@ int main()
     MedicalDignosis obj;
     obj.acceptDetails();
     
-
     obj.symptom(obj.name,"fever");
     obj.symptom(obj.name,"rash");
     obj.symptom(obj.name,"headache");
@@ -156,6 +146,5 @@ int main()
     cout<<"\n\n";
     cout<<"PRESS ANY KEY TO EXIT";
     getch();
-
 
 }
