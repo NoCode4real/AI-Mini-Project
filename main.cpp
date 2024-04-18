@@ -1,5 +1,4 @@
 #include<bits/stdc++.h>
-#include<conio.h>
 using namespace std;
 
 class MedicalDignosis{
@@ -145,6 +144,5 @@ int main()
     
     cout<<"\n\n";
     cout<<"PRESS ANY KEY TO EXIT";
-    getch();
 
 }
